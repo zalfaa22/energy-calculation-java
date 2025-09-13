@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class HitungEnergi {
     public static void main(String[] args) {
-        double massa, kecepatan, ketinggian, energiPotensial, energiKinetik, energiMekanik;
         Scanner input = new Scanner(System.in);
+        double massa, kecepatan, ketinggian, energiPotensial, energiKinetik, energiMekanik;
 
         System.out.print("Masukkan massa : ");
         massa = input.nextDouble();
